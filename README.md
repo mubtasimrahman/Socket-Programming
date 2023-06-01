@@ -8,6 +8,7 @@ To run the server, execute the following command:
 
 
 python server.py <input file>
+
 Ensure that the command is correctly formatted and that the input file exists. The server will create a connection-based socket and prepare it for incoming connections, using a chosen port number to avoid well-known port numbers.
 
 Client Usage:
@@ -17,6 +18,7 @@ To run a client, execute the following command:
 
 
 python client.py <server> <output file>
+
 Make sure to provide the server name and the desired output file name as command-line arguments. The client will validate the syntax, parse the arguments, translate the server name into an IP address, and verify write access to the output file. Any errors encountered during this process will result in a brief error message and termination.
 
 File Structure
