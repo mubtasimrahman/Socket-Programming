@@ -17,7 +17,7 @@ To run a client, execute the following command:
 
 
 
-python client.py <server> <output file>
+python client.py [server] [output file]
 
 Make sure to provide the server name and the desired output file name as command-line arguments. The client will validate the syntax, parse the arguments, translate the server name into an IP address, and verify write access to the output file. Any errors encountered during this process will result in a brief error message and termination.
 
