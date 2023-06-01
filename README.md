@@ -7,7 +7,7 @@ Server Usage:
 To run the server, execute the following command:
 
 
-python server.py <input file>
+python server.py [input file]
 
 Ensure that the command is correctly formatted and that the input file exists. The server will create a connection-based socket and prepare it for incoming connections, using a chosen port number to avoid well-known port numbers.
 
